@@ -9,8 +9,8 @@ Route::get('/', [AuthController::class, 'index'])->name("registration");
 Route::get('/user', [UserController::class, 'user']);
 Route::get('/change/pass', [UserController::class, 'change_pass']);
 Route::get('/login', [UserController::class, 'login'])->name("login");
-Route::get('/dashboard', [UserController::class, 'dashboard']);
-// Route::get('/admin', [AdminController::class, 'index']);
+Route::get('/dashboard', [AdminController::class, 'dashboard']);
+Route::get('/inbox', [AdminController::class, 'inbox']);
 
 Route::post('/submit', function () {
     // Handle form submission logic here

@@ -9,7 +9,7 @@ body{
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    color: #383063 !important;
+    color: #332C5A !important;
 
 }
 
@@ -93,23 +93,29 @@ body{
     font-size: 10px;
 }
 .bi-star-fill{
-    font-size: 18px;
-    color: #0F9D58;
+    font-size: 20px;
+    color: #28A745;
 }
 
 .bi-people-fill{
-    font-size: 18px;
+    font-size: 20px;
     color: #5D42F4;
 }
 
-.bi-slash-circle-fill{
-    font-size: 18px;
-    color: #DB4437;
+.bi-ban{
+    font-size: 20px;
+    color: #ff0000;
 }
 
 .navlink-icon-color{
     color: #0C0342 !important;
-    font-size: 20px}
+    font-size: 20px;
+}
+
+.bi-envelope-arrow-down-fill{
+    color: #FFC107;
+    font-size: 20px;
+}
 /* ICON END----------------------------------------------------------------------- */
 
 
@@ -121,8 +127,19 @@ body{
     color: #FAF9FF;
 }
 
+.card-title-2{
+    font-weight: 600;
+    font-family: "Inter", sans-serif !important;
+    margin-bottom: -4px !important;
+    color: #5D42F4;
+}
+
 .card-paragraph{
     color: #FAF9FF !important;
+}
+
+.card-paragraph-2{
+    color: #5D42F4 !important;
 }
 
 .small-card-title{
@@ -130,7 +147,7 @@ body{
     font-family: "Inter", sans-serif !important;
     margin-bottom: -16px !important;
     font-size: 58px;
-    color: #5D42F4;
+    color: #332c5a;
 }
 
 .small-card-paragraph{
@@ -140,26 +157,121 @@ body{
 .custom-card-banner{
     border: none !important;
     border-radius: 20px !important;
-    background: rgb(55,220,255);
-    background: linear-gradient(137deg, rgba(55,220,255,1) 0%, rgba(93,66,244,1) 35%, rgba(220,213,255,1) 100%);
+    background-color: #5D42F4 !important;
+    /* background: rgb(55,220,255);
+    background: linear-gradient(137deg, rgba(55,220,255,1) 0%, rgba(93,66,244,1) 35%, rgba(220,213,255,1) 100%); */
+}
+
+.custom-card-banner-2{
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: transparent;
+    /* background: rgb(55,220,255);
+    background: linear-gradient(137deg, rgba(55,220,255,1) 0%, rgba(93,66,244,1) 35%, rgba(220,213,255,1) 100%); */
 }
 
 .custom-card{
     border-radius: 10px !important;
+    border: none !important;
+}
+
+.custom-card-danger{
+    border: 1px solid #ff0000 !important;
+    border-radius: 10px !important;
+}
+
+.bi-exclamation-circle-fill{
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.h1-greetings{
+    color: #332C5A;
 }
 /* DASHBOARD CARD END----------------------------------------------------------------------- */
 
 
-/* NAVBAR----------------------------------------------------------------------- */
+/* SIDENAV----------------------------------------------------------------------- */
 .div-nav-logo{
     padding-top: 10%;
 }
 .nav-logo-container{
-    width: 30%;
+    width: 25%;
 }
+
+.custom-link{
+    font-size: 16px;
+    color: #FAF9FF;
+    background-color: #5D42F4;
+    padding: 16px 16px 16px 16px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+.custom-link:hover{
+    font-size: 16px;
+    color: #FAF9FF;
+    background-color: #5D42F4;
+    padding: 16px 16px 16px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 1px 3px 3px rgba(0,0,0,0.15);
+}
+.custom-link-div{
+    margin-bottom:32px;
+}
+
+.nav-link{
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover{
+    background-color: #EDEAFE;
+    border-radius: 100px;
+}
+
+.nav-link.active{
+    background-color: #DCD5FF;
+    border-radius: 100px;
+}
+/* SIDENAV END----------------------------------------------------------------------- */
+
+/* NAVBAR----------------------------------------------------------------------- */
+    .custom-navbar{
+        background-color: transparent !important;
+        border-radius: 100px !important;
+        box-shadow: none !important;
+        position: sticky;
+    }
+
+    .b-title{
+        text-align: center;
+    }
+
+    .profile-logo:hover{
+        filter: brightness(120%);
+        -webkit-filter: brightness(120%);
+        -moz-filter: brightness(120%);
+    }
+
+    .btn-secondary.dropdown-toggle::after {
+        display: none;
+      }
+
+    .btn-secondary{
+        background-color: #BCB1FF !important;
+        border-radius: 200px !important;
+        border: none !important;
+        color: #332C5A !important;
+    }
+
+    .btn-secondary:hover{
+        background-color: #DCD5FF !important;
+        border: none !important;
+    }
+
 /* NAVBAR END----------------------------------------------------------------------- */
-
-
 
 /* MOBILE VIEW PAGE----------------------------------------------------------------------- */
 /* LOGIN AND REGISTRATION PAGE----------------------------------------------------------------------- */
@@ -238,4 +350,12 @@ body{
         justify-content: center; /* horizontally centers items */
         align-items: center; /* vertically centers items */
     }
+
+    /* DASHBOARD CARD RESPONSIVE----------------------------------------------------------------------- */
+    .custom-card{
+        margin-top: 16px;
+    }
+
+
+    /* DASHBOARD CARD END----------------------------------------------------------------------- */
   }
