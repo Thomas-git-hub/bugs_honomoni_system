@@ -22,9 +22,9 @@ class UserController extends Controller
         return view('index');
     }
 
-    public function dashboard(){
-        return view('dashboard');
-    }
+    // public function dashboard(){
+    //     return view('dashboard');
+    // }
 
 
 

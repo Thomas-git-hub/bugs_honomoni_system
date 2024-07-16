@@ -180,4 +180,14 @@ $(document).ready(function() {
   });
 
 })(jQuery);
+
+// ACTIVE SIDENAV LINKS
+$(document).ready(function() {
+    $('.nav-link').on('click', function() {
+        // Remove 'active' class from all links
+        $('.nav-link').removeClass('active');
+        // Add 'active' class to the clicked link
+        $(this).addClass('active');
+    });
+});
 /* SIDE NAVIGATION BAR END----------------------------------------------------------------------- */

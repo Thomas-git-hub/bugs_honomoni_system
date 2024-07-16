@@ -8240,10 +8240,10 @@ h1, h2, h3, h4, h5,
       display: block;
       /* color: rgba(255, 255, 255, 0.8); */
       color: #383063; }
-      #sidebar ul li a:hover {
+      /* #sidebar ul li a:hover {
         background-color: #EDEAFE;
         border-radius: 100px;
-        /* color: #5D42F4; */}
+        color: #5D42F4;} */
     #sidebar ul li.active > a {
       background: transparent;
       color: #5D42F4; }
